@@ -1,0 +1,56 @@
+version: '3'
+
+
+services:
+
+  database:
+    container_name: postgres_db
+    image: 'postgres'
+    restart: always
+    ports:
+      - "5432:5432"
+    secrets: 
+      - database_password
+    environment:
+       POSTGRES_USER: hassan
+       POSTGRES_PASSWORD: /run/secrets/database_password
+       POSTGRES_DB: test 
+    networks:
+      service-network:
+        ipv4_address: 192.168.92.21
+    volumes: 
+      - ./postgres:/var/lib/postgresql/data    #crée sur le host dans un dossier postgres dans lequel on save la data de la database du conteneur
+    healthcheck:
+      test: [ "CMD", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+
+  web:
+    build: .
+    restart: always
+    hostname: myapp.com
+    ports:
+      - "8080:80"
+    depends_on: #Create postgres first
+      - database
+    networks:
+      service-network:
+        ipv4_address: 192.168.92.20
+    healthcheck:
+      test: ["CMD-SHELL", "curl --silent --fail localhost:8000/flask-health-check || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+    
+secrets:
+  database_password:
+    file: ./pass.txt
+
+networks:
+  service-network:
+    ipam:
+      driver: default
+      config:
+        - subnet: "192.168.92.0/24"

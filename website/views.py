@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, flash, jsonify
 from flask_login import login_required, current_user
 from .models import Note
-#from . import db
+from . import db
 from . import locale_session
 import json
 
@@ -31,8 +31,8 @@ def delete_note():
     note = Note.query.get(noteId)
     if note:
         if note.user_id == current_user.id:
-            #db.session.delete(note)
-            #db.session.commit()
-            locale_session.delete(note)
-            locale_session.commit()
+            db.session.delete(note)
+            db.session.commit()
+            #locale_session.delete(note)
+            #locale_session.commit()
     return jsonify({})
