@@ -2,10 +2,10 @@ from sqlalchemy import Column, String, DateTime, Integer, ForeignKey, func,creat
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 from datetime import datetime
 from sqlalchemy_utils import database_exists, create_database
-from config import url
+#from config import url
 
 Base = declarative_base()
-url= 'postgresql://hassan:hassan123@database:5432/test'
+url= 'postgresql://hassan:hello123@database:5432/test'
 engine = create_engine(f'{url}', echo=True)
 Session = sessionmaker()
 

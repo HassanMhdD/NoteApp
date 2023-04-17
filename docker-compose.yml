@@ -12,9 +12,9 @@ services:
 #    secrets: 
 #      - database_password
     environment:
-       POSTGRES_USER: hassan
-       POSTGRES_PASSWORD: 'hassan123'
-       POSTGRES_DB: test 
+      POSTGRES_USER: hassan
+      POSTGRES_PASSWORD: hello123
+      POSTGRES_DB: test 
     networks:
       service-network:
         ipv4_address: 192.168.92.21
