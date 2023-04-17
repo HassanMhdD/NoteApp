@@ -1,0 +1,240 @@
+[Mon Apr 17 13:57:15.550808 2023] [wsgi:error] [pid 7169:tid 140343884203584] [remote 194.4.230.55:57695] mod_wsgi (pid=7169): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 13:57:15.550867 2023] [wsgi:error] [pid 7169:tid 140343884203584] [remote 194.4.230.55:57695] mod_wsgi (pid=7169): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 13:57:15.556693 2023] [wsgi:error] [pid 7169:tid 140343884203584] [remote 194.4.230.55:57695] Traceback (most recent call last):
+[Mon Apr 17 13:57:15.556720 2023] [wsgi:error] [pid 7169:tid 140343884203584] [remote 194.4.230.55:57695]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 13:57:15.556726 2023] [wsgi:error] [pid 7169:tid 140343884203584] [remote 194.4.230.55:57695]     from main import app as application
+[Mon Apr 17 13:57:15.556739 2023] [wsgi:error] [pid 7169:tid 140343884203584] [remote 194.4.230.55:57695] ModuleNotFoundError: No module named 'main'
+[Mon Apr 17 13:57:15.731921 2023] [wsgi:error] [pid 7169:tid 140343850632768] [remote 194.4.230.55:57696] mod_wsgi (pid=7169): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 13:57:15.731967 2023] [wsgi:error] [pid 7169:tid 140343850632768] [remote 194.4.230.55:57696] mod_wsgi (pid=7169): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 13:57:15.732043 2023] [wsgi:error] [pid 7169:tid 140343850632768] [remote 194.4.230.55:57696] Traceback (most recent call last):
+[Mon Apr 17 13:57:15.732064 2023] [wsgi:error] [pid 7169:tid 140343850632768] [remote 194.4.230.55:57696]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 13:57:15.732069 2023] [wsgi:error] [pid 7169:tid 140343850632768] [remote 194.4.230.55:57696]     from main import app as application
+[Mon Apr 17 13:57:15.732085 2023] [wsgi:error] [pid 7169:tid 140343850632768] [remote 194.4.230.55:57696] ModuleNotFoundError: No module named 'main'
+[Mon Apr 17 14:02:13.850090 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57743] mod_wsgi (pid=7374): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:13.850147 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57743] mod_wsgi (pid=7374): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:13.855253 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57743] Traceback (most recent call last):
+[Mon Apr 17 14:02:13.855280 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57743]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 14:02:13.855285 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57743]     from main import app as application
+[Mon Apr 17 14:02:13.855331 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57743] ModuleNotFoundError: No module named 'main'
+[Mon Apr 17 14:02:13.991011 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57744] mod_wsgi (pid=7374): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:13.991068 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57744] mod_wsgi (pid=7374): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:13.991141 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57744] Traceback (most recent call last):
+[Mon Apr 17 14:02:13.991175 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57744]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 14:02:13.991180 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57744]     from main import app as application
+[Mon Apr 17 14:02:13.991194 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57744] ModuleNotFoundError: No module named 'main'
+[Mon Apr 17 14:02:15.692254 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57747] mod_wsgi (pid=7374): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:15.692310 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57747] mod_wsgi (pid=7374): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:15.692385 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57747] Traceback (most recent call last):
+[Mon Apr 17 14:02:15.692406 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57747]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 14:02:15.692411 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57747]     from main import app as application
+[Mon Apr 17 14:02:15.692426 2023] [wsgi:error] [pid 7374:tid 140343867418176] [remote 194.4.230.55:57747] ModuleNotFoundError: No module named 'main'
+[Mon Apr 17 14:02:15.807013 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57748] mod_wsgi (pid=7374): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:15.807055 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57748] mod_wsgi (pid=7374): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:02:15.807130 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57748] Traceback (most recent call last):
+[Mon Apr 17 14:02:15.807152 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57748]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 14:02:15.807157 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57748]     from main import app as application
+[Mon Apr 17 14:02:15.807172 2023] [wsgi:error] [pid 7374:tid 140343884203584] [remote 194.4.230.55:57748] ModuleNotFoundError: No module named 'main'
+[Mon Apr 17 14:03:31.094653 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] mod_wsgi (pid=7522): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:03:31.094712 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] mod_wsgi (pid=7522): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:03:31.098735 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] Traceback (most recent call last):
+[Mon Apr 17 14:03:31.098809 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 145, in __init__
+[Mon Apr 17 14:03:31.098816 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self._dbapi_connection = engine.raw_connection()
+[Mon Apr 17 14:03:31.098822 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3275, in raw_connection
+[Mon Apr 17 14:03:31.098826 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self.pool.connect()
+[Mon Apr 17 14:03:31.098832 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 455, in connect
+[Mon Apr 17 14:03:31.098836 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return _ConnectionFairy._checkout(self)
+[Mon Apr 17 14:03:31.098841 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 1271, in _checkout
+[Mon Apr 17 14:03:31.098845 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     fairy = _ConnectionRecord.checkout(pool)
+[Mon Apr 17 14:03:31.098850 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 719, in checkout
+[Mon Apr 17 14:03:31.098854 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     rec = pool._do_get()
+[Mon Apr 17 14:03:31.098869 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+[Mon Apr 17 14:03:31.098873 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.098878 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.098888 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.098894 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 166, in _do_get
+[Mon Apr 17 14:03:31.098898 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self._create_connection()
+[Mon Apr 17 14:03:31.098903 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 396, in _create_connection
+[Mon Apr 17 14:03:31.098907 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return _ConnectionRecord(self)
+[Mon Apr 17 14:03:31.098912 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 681, in __init__
+[Mon Apr 17 14:03:31.098916 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self.__connect()
+[Mon Apr 17 14:03:31.098921 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 905, in __connect
+[Mon Apr 17 14:03:31.098924 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.098929 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.098933 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.098938 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 901, in __connect
+[Mon Apr 17 14:03:31.098943 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self.dbapi_connection = connection = pool._invoke_creator(self)
+[Mon Apr 17 14:03:31.098948 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 636, in connect
+[Mon Apr 17 14:03:31.098952 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return dialect.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.098956 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 580, in connect
+[Mon Apr 17 14:03:31.098960 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self.loaded_dbapi.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.098966 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/psycopg2/__init__.py", line 122, in connect
+[Mon Apr 17 14:03:31.098970 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[Mon Apr 17 14:03:31.098986 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.098996 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.099000 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] 
+[Mon Apr 17 14:03:31.099007 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] 
+[Mon Apr 17 14:03:31.099010 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] The above exception was the direct cause of the following exception:
+[Mon Apr 17 14:03:31.099014 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] 
+[Mon Apr 17 14:03:31.099020 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] Traceback (most recent call last):
+[Mon Apr 17 14:03:31.099101 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 14:03:31.099106 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     from main import app as application
+[Mon Apr 17 14:03:31.099111 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/var/www/app/main.py", line 3, in <module>
+[Mon Apr 17 14:03:31.099115 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     app = create_app()
+[Mon Apr 17 14:03:31.099120 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/var/www/app/website/__init__.py", line 31, in create_app
+[Mon Apr 17 14:03:31.099124 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     db.create_all()
+[Mon Apr 17 14:03:31.099129 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 884, in create_all
+[Mon Apr 17 14:03:31.099133 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self._call_for_binds(bind_key, "create_all")
+[Mon Apr 17 14:03:31.099139 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 865, in _call_for_binds
+[Mon Apr 17 14:03:31.099143 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     getattr(metadata, op_name)(bind=engine)
+[Mon Apr 17 14:03:31.099147 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/sql/schema.py", line 5581, in create_all
+[Mon Apr 17 14:03:31.099151 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     bind._run_ddl_visitor(
+[Mon Apr 17 14:03:31.099156 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3225, in _run_ddl_visitor
+[Mon Apr 17 14:03:31.099160 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     with self.begin() as conn:
+[Mon Apr 17 14:03:31.099165 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+[Mon Apr 17 14:03:31.099169 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return next(self.gen)
+[Mon Apr 17 14:03:31.099174 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3215, in begin
+[Mon Apr 17 14:03:31.099178 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     with self.connect() as conn:
+[Mon Apr 17 14:03:31.099183 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3251, in connect
+[Mon Apr 17 14:03:31.099191 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self._connection_cls(self)
+[Mon Apr 17 14:03:31.099196 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 147, in __init__
+[Mon Apr 17 14:03:31.099200 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     Connection._handle_dbapi_exception_noconnection(
+[Mon Apr 17 14:03:31.099205 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2413, in _handle_dbapi_exception_noconnection
+[Mon Apr 17 14:03:31.099209 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+[Mon Apr 17 14:03:31.099214 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 145, in __init__
+[Mon Apr 17 14:03:31.099218 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self._dbapi_connection = engine.raw_connection()
+[Mon Apr 17 14:03:31.099223 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3275, in raw_connection
+[Mon Apr 17 14:03:31.099227 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self.pool.connect()
+[Mon Apr 17 14:03:31.099232 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 455, in connect
+[Mon Apr 17 14:03:31.099236 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return _ConnectionFairy._checkout(self)
+[Mon Apr 17 14:03:31.099241 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 1271, in _checkout
+[Mon Apr 17 14:03:31.099245 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     fairy = _ConnectionRecord.checkout(pool)
+[Mon Apr 17 14:03:31.099250 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 719, in checkout
+[Mon Apr 17 14:03:31.099254 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     rec = pool._do_get()
+[Mon Apr 17 14:03:31.099259 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+[Mon Apr 17 14:03:31.099263 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.099268 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.099272 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.099276 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 166, in _do_get
+[Mon Apr 17 14:03:31.099280 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self._create_connection()
+[Mon Apr 17 14:03:31.099285 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 396, in _create_connection
+[Mon Apr 17 14:03:31.099289 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return _ConnectionRecord(self)
+[Mon Apr 17 14:03:31.099328 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 681, in __init__
+[Mon Apr 17 14:03:31.099340 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self.__connect()
+[Mon Apr 17 14:03:31.099349 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 905, in __connect
+[Mon Apr 17 14:03:31.099353 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.099358 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.099362 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.099367 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 901, in __connect
+[Mon Apr 17 14:03:31.099371 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     self.dbapi_connection = connection = pool._invoke_creator(self)
+[Mon Apr 17 14:03:31.099376 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 636, in connect
+[Mon Apr 17 14:03:31.099380 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return dialect.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.099385 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 580, in connect
+[Mon Apr 17 14:03:31.099389 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     return self.loaded_dbapi.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.099394 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]   File "/usr/local/lib/python3.10/dist-packages/psycopg2/__init__.py", line 122, in connect
+[Mon Apr 17 14:03:31.099398 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757]     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[Mon Apr 17 14:03:31.099412 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.099417 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.099421 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] 
+[Mon Apr 17 14:03:31.099425 2023] [wsgi:error] [pid 7522:tid 140343867418176] [remote 194.4.230.55:57757] (Background on this error at: https://sqlalche.me/e/20/e3q8)
+[Mon Apr 17 14:03:31.283951 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] mod_wsgi (pid=7522): Failed to exec Python script file '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:03:31.284000 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] mod_wsgi (pid=7522): Exception occurred processing WSGI script '/var/www/app/website.wsgi'.
+[Mon Apr 17 14:03:31.284371 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] Traceback (most recent call last):
+[Mon Apr 17 14:03:31.284438 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 145, in __init__
+[Mon Apr 17 14:03:31.284444 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self._dbapi_connection = engine.raw_connection()
+[Mon Apr 17 14:03:31.284461 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3275, in raw_connection
+[Mon Apr 17 14:03:31.284466 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self.pool.connect()
+[Mon Apr 17 14:03:31.284471 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 455, in connect
+[Mon Apr 17 14:03:31.284475 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return _ConnectionFairy._checkout(self)
+[Mon Apr 17 14:03:31.284480 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 1271, in _checkout
+[Mon Apr 17 14:03:31.284484 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     fairy = _ConnectionRecord.checkout(pool)
+[Mon Apr 17 14:03:31.284490 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 719, in checkout
+[Mon Apr 17 14:03:31.284494 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     rec = pool._do_get()
+[Mon Apr 17 14:03:31.284499 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+[Mon Apr 17 14:03:31.284503 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.284508 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.284512 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.284517 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 166, in _do_get
+[Mon Apr 17 14:03:31.284521 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self._create_connection()
+[Mon Apr 17 14:03:31.284526 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 396, in _create_connection
+[Mon Apr 17 14:03:31.284530 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return _ConnectionRecord(self)
+[Mon Apr 17 14:03:31.284534 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 681, in __init__
+[Mon Apr 17 14:03:31.284539 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self.__connect()
+[Mon Apr 17 14:03:31.284543 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 905, in __connect
+[Mon Apr 17 14:03:31.284548 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.284552 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.284557 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.284561 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 901, in __connect
+[Mon Apr 17 14:03:31.284566 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self.dbapi_connection = connection = pool._invoke_creator(self)
+[Mon Apr 17 14:03:31.284574 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 636, in connect
+[Mon Apr 17 14:03:31.284578 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return dialect.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.284583 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 580, in connect
+[Mon Apr 17 14:03:31.284587 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self.loaded_dbapi.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.284593 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/psycopg2/__init__.py", line 122, in connect
+[Mon Apr 17 14:03:31.284597 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[Mon Apr 17 14:03:31.284619 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.284625 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.284629 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] 
+[Mon Apr 17 14:03:31.284635 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] 
+[Mon Apr 17 14:03:31.284639 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] The above exception was the direct cause of the following exception:
+[Mon Apr 17 14:03:31.284643 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] 
+[Mon Apr 17 14:03:31.284648 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] Traceback (most recent call last):
+[Mon Apr 17 14:03:31.284728 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/var/www/app/website.wsgi", line 5, in <module>
+[Mon Apr 17 14:03:31.284733 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     from main import app as application
+[Mon Apr 17 14:03:31.284738 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/var/www/app/main.py", line 3, in <module>
+[Mon Apr 17 14:03:31.284742 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     app = create_app()
+[Mon Apr 17 14:03:31.284747 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/var/www/app/website/__init__.py", line 31, in create_app
+[Mon Apr 17 14:03:31.284751 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     db.create_all()
+[Mon Apr 17 14:03:31.284756 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 884, in create_all
+[Mon Apr 17 14:03:31.284760 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self._call_for_binds(bind_key, "create_all")
+[Mon Apr 17 14:03:31.284765 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/flask_sqlalchemy/extension.py", line 865, in _call_for_binds
+[Mon Apr 17 14:03:31.284769 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     getattr(metadata, op_name)(bind=engine)
+[Mon Apr 17 14:03:31.284774 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/sql/schema.py", line 5581, in create_all
+[Mon Apr 17 14:03:31.284782 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     bind._run_ddl_visitor(
+[Mon Apr 17 14:03:31.284788 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3225, in _run_ddl_visitor
+[Mon Apr 17 14:03:31.284792 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     with self.begin() as conn:
+[Mon Apr 17 14:03:31.284797 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+[Mon Apr 17 14:03:31.284801 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return next(self.gen)
+[Mon Apr 17 14:03:31.284806 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3215, in begin
+[Mon Apr 17 14:03:31.284810 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     with self.connect() as conn:
+[Mon Apr 17 14:03:31.284815 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3251, in connect
+[Mon Apr 17 14:03:31.284819 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self._connection_cls(self)
+[Mon Apr 17 14:03:31.284824 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 147, in __init__
+[Mon Apr 17 14:03:31.284833 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     Connection._handle_dbapi_exception_noconnection(
+[Mon Apr 17 14:03:31.284839 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2413, in _handle_dbapi_exception_noconnection
+[Mon Apr 17 14:03:31.284843 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+[Mon Apr 17 14:03:31.284848 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 145, in __init__
+[Mon Apr 17 14:03:31.284852 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self._dbapi_connection = engine.raw_connection()
+[Mon Apr 17 14:03:31.284857 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 3275, in raw_connection
+[Mon Apr 17 14:03:31.284861 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self.pool.connect()
+[Mon Apr 17 14:03:31.284866 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 455, in connect
+[Mon Apr 17 14:03:31.284870 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return _ConnectionFairy._checkout(self)
+[Mon Apr 17 14:03:31.284875 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 1271, in _checkout
+[Mon Apr 17 14:03:31.284879 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     fairy = _ConnectionRecord.checkout(pool)
+[Mon Apr 17 14:03:31.284884 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 719, in checkout
+[Mon Apr 17 14:03:31.284888 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     rec = pool._do_get()
+[Mon Apr 17 14:03:31.284896 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 168, in _do_get
+[Mon Apr 17 14:03:31.284900 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.284905 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.284909 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.284914 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/impl.py", line 166, in _do_get
+[Mon Apr 17 14:03:31.284918 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self._create_connection()
+[Mon Apr 17 14:03:31.284923 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 396, in _create_connection
+[Mon Apr 17 14:03:31.284927 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return _ConnectionRecord(self)
+[Mon Apr 17 14:03:31.284932 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 681, in __init__
+[Mon Apr 17 14:03:31.284936 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self.__connect()
+[Mon Apr 17 14:03:31.284941 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 905, in __connect
+[Mon Apr 17 14:03:31.284945 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     with util.safe_reraise():
+[Mon Apr 17 14:03:31.284950 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+[Mon Apr 17 14:03:31.284954 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     raise exc_value.with_traceback(exc_tb)
+[Mon Apr 17 14:03:31.284959 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/pool/base.py", line 901, in __connect
+[Mon Apr 17 14:03:31.284963 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     self.dbapi_connection = connection = pool._invoke_creator(self)
+[Mon Apr 17 14:03:31.284968 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/create.py", line 636, in connect
+[Mon Apr 17 14:03:31.284972 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return dialect.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.284977 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 580, in connect
+[Mon Apr 17 14:03:31.284980 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     return self.loaded_dbapi.connect(*cargs, **cparams)
+[Mon Apr 17 14:03:31.284986 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]   File "/usr/local/lib/python3.10/dist-packages/psycopg2/__init__.py", line 122, in connect
+[Mon Apr 17 14:03:31.284990 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758]     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+[Mon Apr 17 14:03:31.285001 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.285009 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "hassan"
+[Mon Apr 17 14:03:31.285013 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] 
+[Mon Apr 17 14:03:31.285017 2023] [wsgi:error] [pid 7522:tid 140343884203584] [remote 194.4.230.55:57758] (Background on this error at: https://sqlalche.me/e/20/e3q8)

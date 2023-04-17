@@ -9,7 +9,7 @@ db = SQLAlchemy()
 
 
 locale_session = Session(bind=engine)
-url= 'postgresql://postgres:hassan@localhost:5432/Employee'
+url= 'postgresql://hassan:hassan123@database:5432/test'
 
 def create_app():
     app = Flask(__name__) # App initialization
