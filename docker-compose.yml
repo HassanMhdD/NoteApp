@@ -9,11 +9,11 @@ services:
     restart: always
     ports:
       - "5432:5432"
-    secrets: 
-      - database_password
+#    secrets: 
+#      - database_password
     environment:
        POSTGRES_USER: hassan
-       POSTGRES_PASSWORD: /run/secrets/database_password
+       POSTGRES_PASSWORD: 'hassan123'
        POSTGRES_DB: test 
     networks:
       service-network:
@@ -44,9 +44,9 @@ services:
     #  timeout: 10s
     #  retries: 3
     
-secrets:
-  database_password:
-    file: ./pass.txt
+#secrets:
+#  database_password:
+#    file: ./pass.txt
 
 networks:
   service-network:
