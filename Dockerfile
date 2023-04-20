@@ -10,7 +10,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt install apache2 python3 pip libpq-dev apache2-dev -y \ 
         && pip3 install --upgrade pip
 # Copy over and install the requirements
-COPY --chmod=777 ./NoteApp/app /var/www/app
+COPY --chmod=777 ./app /var/www/app
 RUN  pip install -r /var/www/app/requirements.txt 
 RUN mv /var/www/app/flask-noteapp.conf /etc/apache2/sites-available/
 
