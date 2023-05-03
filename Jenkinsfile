@@ -1,7 +1,19 @@
 pipeline {
     agent any
     stages{
-        stage('Execute Ansible Playbook'){
+        stage('Checkout') {
+            steps {
+                // Récupère les playbooks Ansible depuis le dépôt Git
+                checkout([$class: 'GitSCM',
+                branches: [[name: '*/main']],
+                doGenerateSubmoduleConfigurations: false,
+                extensions: [],
+                submoduleCfg: [],
+                userRemoteConfigs: [[url: 'https://github.com/HassanMhdD/NoteApp.git']]
+                ])
+                }
+   stage('Execute Ansible Playbook'){
+    agent { node { label 'Node1'} }
             environment{
                 // Définit les variables d'environnement pour l'utilisateur distant et les informations d'authentification SSH
                 remoteUser = 'ubuntu'
