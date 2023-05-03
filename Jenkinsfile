@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupère les playbooks Ansible depuis le dépôt Git
-                checkout([$class: 'GitSCM',
+            checkout([$class: 'GitSCM',
                 branches: [[name: '*/main']],
                 doGenerateSubmoduleConfigurations: false,
                 extensions: [],
@@ -12,6 +12,7 @@ pipeline {
                 userRemoteConfigs: [[url: 'https://github.com/HassanMhdD/NoteApp.git']]
                 ])
                 }
+        }
    stage('Execute Ansible Playbook'){
     agent { node { label 'Node1'} }
             environment{
@@ -27,5 +28,4 @@ pipeline {
                     }
         }
     }
-}
 }
