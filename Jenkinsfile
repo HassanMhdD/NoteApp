@@ -1,5 +1,4 @@
 pipeline {
-<<<<<<< HEAD
     agent any
     stages{
         stage('Execute Ansible Playbook'){
