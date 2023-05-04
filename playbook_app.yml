@@ -6,12 +6,12 @@
     - name: Copy app dir noteapp to remote host
       ansible.builtin.copy:
         src: ~/workspace/NoteApp
-        dest: ~/
+        dest: ~/NoteApp
         
 
     - name: Executing the command
       shell:
         cmd: docker compose up --build -d
       args:
-        chdir: "~/NoteApp" 
+        chdir: "~/NoteApp/NoteApp" 
         
