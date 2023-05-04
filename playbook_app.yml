@@ -8,11 +8,10 @@
         src: ~/workspace/NoteApp
         dest: ~/NoteApp
         
-    - name: Change the working directory to NoteApp 
-      shell:
-        cmd: cd NoteApp/
 
     - name: Executing the command
       shell:
         cmd: docker compose up --build -d
+      args:
+        chdir: "NoteApp/" 
         
