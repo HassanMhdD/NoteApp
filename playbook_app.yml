@@ -1,18 +1,42 @@
 ---
-- name: Copy and Start App
-  hosts: all
-  become: true 
-  
-  tasks:
-    - name: Copy app dir noteapp to remote host
-      ansible.builtin.copy:
-        src: ~/workspace/NoteApp
-        dest: ~/NoteApp
-        
+- name: Build app image
+  hosts: localhost
 
-    - name: Executing the command
-      shell:
-        cmd: docker compose up --build -d
-      args:
-        chdir: "~/NoteApp/NoteApp" 
-        
+  tasks:
+    - name: Check if Docker is installed
+      ansible.builtin.stat:
+        path: /var/lib/docker
+      register: docker_check
+
+    - name: Install Docker if not installed
+      ansible.builtin.get_url:
+        url: https://get.docker.com
+        dest: /home/ubuntu/get-docker.sh
+      when: docker_check.stat.exists == False
+
+    - name: Install Docker
+      ansible.builtin.script:
+        src: /home/ubuntu/get-docker.sh
+      when: docker_check.stat.exists == False
+
+    - name: Ensure that Docker is started
+      ansible.builtin.service:
+        name: docker
+        state: started
+     
+    - name: Delete existing Docker images from the Control Node
+      shell: docker rmi $(docker images -q) -f 
+      ignore_errors: yes
+
+    - name: create docker image
+      docker_image:
+        name: Noteapp
+        build:
+          path: ~/workspace/NoteApp
+          pull: true
+        state: present
+        tag: "latest"
+        force_tag: yes
+        repository: prototyp97/Noteapp:latest
+        push: yes
+        source: build
