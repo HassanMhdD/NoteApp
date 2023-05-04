@@ -1,6 +1,7 @@
 ---
 - name: Build app image
   hosts: localhost
+  become: true
 
   tasks:
     - name: Check if Docker is installed
