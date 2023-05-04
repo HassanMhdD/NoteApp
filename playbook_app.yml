@@ -1,7 +1,8 @@
 ---
 - name: Copy and Start App
   hosts: all
-
+  become: true 
+  
   tasks:
     - name: Copy app dir noteapp to remote host
       ansible.builtin.copy:
