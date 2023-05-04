@@ -11,5 +11,7 @@
 
     - name: Executing the command
       shell:
-        cmd: docker compose up --build -d -f ~/NoteApp/docker-compose.yml
+        cmd: docker compose up --build -d
+      args:
+        chdir: "~/NoteApp/NoteApp" 
         
