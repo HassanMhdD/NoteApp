@@ -1,17 +1,30 @@
 ---
-- name : Update and Installation
+- name: Update and Installation
   hosts: all
   become: true
 
   tasks:
-    - name : Update la vm
-      shell:
-        cmd: apt-get update
+    - name: Update the VM
+      ansible.builtin.apt:
+        update_cache: yes
 
-    - name: Installation de docker
-      shell:
-        cmd: curl -fsSL https://get.docker.com -o get-docker.sh | sudo sh /home/ubuntu/get-docker.sh
+   - name: Check if Docker is installed
+      ansible.builtin.stat:
+        path: /var/lib/docker
+      register: docker_check
 
-    - name: Ensure that docker is started
+    - name: Install Docker if not installed
+      ansible.builtin.get_url:
+        url: https://get.docker.com
+        dest: /home/ubuntu/get-docker.sh
+      when: docker_check.stat.exists == False
+
+    - name: Install Docker
+      ansible.builtin.script:
+        src: /home/ubuntu/get-docker.sh
+      when: docker_check.stat.exists == False
+
+    - name: Ensure that Docker is started
       ansible.builtin.service:
         name: docker
+        state: started

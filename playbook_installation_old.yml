@@ -1,0 +1,17 @@
+---
+- name : Update and Installation
+  hosts: all
+  become: true
+
+  tasks:
+    - name : Update la vm
+      shell:
+        cmd: apt-get update
+
+    - name: Installation de docker
+      shell:
+        cmd: curl -fsSL https://get.docker.com -o get-docker.sh | sudo sh /home/ubuntu/get-docker.sh
+
+    - name: Ensure that docker is started
+      ansible.builtin.service:
+        name: docker
