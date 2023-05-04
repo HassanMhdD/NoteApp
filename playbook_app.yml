@@ -15,8 +15,7 @@
       when: docker_check.stat.exists == False
 
     - name: Install Docker
-      ansible.builtin.script:
-        src: /home/ubuntu/get-docker.sh
+      command: sudo sh /home/ubuntu/get-docker.sh 
       when: docker_check.stat.exists == False
 
     - name: Ensure that Docker is started
