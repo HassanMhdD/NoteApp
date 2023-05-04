@@ -5,8 +5,9 @@
   tasks:
     - name: Copy app dir noteapp to remote host
       ansible.builtin.copy:
-        src: NoteApp
+        src: ~/workspace/NoteApp
         dest: ~/NoteApp
+        remote_src: true
 
 
     - name: Change the working directory to NoteApp before executing the command
