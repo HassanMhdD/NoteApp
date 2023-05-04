@@ -1,0 +1,15 @@
+---
+- name: Copy and Start App
+  hosts: all
+
+  tasks:
+    - name: Copy app dir noteapp to remote host
+      ansible.builtin.copy:
+        src: ~/NoteApp
+        dest: ~/NoteApp
+
+
+    - name: Change the working directory to NoteApp before executing the command
+      shell:
+        cmd: docker compose up --build -d
+        chdir: NoteApp/
