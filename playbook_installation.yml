@@ -8,7 +8,7 @@
       ansible.builtin.apt:
         update_cache: yes
 
-   - name: Check if Docker is installed
+    - name: Check if Docker is installed
       ansible.builtin.stat:
         path: /var/lib/docker
       register: docker_check
