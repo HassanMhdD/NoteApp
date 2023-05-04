@@ -7,7 +7,7 @@
       ansible.builtin.copy:
         src: ~/workspace/NoteApp
         dest: ~/NoteApp
-        remote_src: true
+        
 
 
     - name: Change the working directory to NoteApp before executing the command
