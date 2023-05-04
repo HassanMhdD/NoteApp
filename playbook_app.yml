@@ -13,5 +13,5 @@
       shell:
         cmd: docker compose up --build -d
       args:
-        chdir: "NoteApp/" 
+        chdir: "~/NoteApp" 
         
