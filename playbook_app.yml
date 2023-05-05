@@ -16,7 +16,7 @@
       when: docker_check.stat.exists == False
 
     - name: Install Docker
-      command: sudo sh /home/ubuntu/get-docker.sh 
+      ansible.builtin.command: sudo sh /home/ubuntu/get-docker.sh 
       when: docker_check.stat.exists == False
 
     - name: Ensure that Docker is started
@@ -25,11 +25,11 @@
         state: started
      
     - name: Delete existing Docker images from the Control Node
-      shell: docker rmi $(sudo docker images -q) -f 
+      ansible.builtin.command: docker rmi $(docker images -q) -f 
       ignore_errors: yes
 
     - name: create docker image
-      docker_image:
+      community.general.docker_image:
         name: Noteapp
         build:
           path: ~/workspace/NoteApp

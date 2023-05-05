@@ -28,3 +28,7 @@
       ansible.builtin.service:
         name: docker
         state: started
+
+    - name: Install Docker SDK for python
+      ansible.builtin.pip:
+        name: docker 
