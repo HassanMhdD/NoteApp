@@ -23,6 +23,14 @@
       ansible.builtin.service:
         name: docker
         state: started
+  
+    - name: Install pip
+      ansible.builtin.apt:
+        name: python3-pip 
+
+    - name: Install Docker SDK for python
+      ansible.builtin.pip:
+        name: docker 
      
     - name: Delete existing Docker images from the Control Node
       ansible.builtin.command: docker rmi $(docker images -q) -f 
