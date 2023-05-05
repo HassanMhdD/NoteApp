@@ -40,7 +40,7 @@
       community.general.docker_image:
         name: Noteapp
         build:
-          path: ~/workspace/NoteApp
+          path: /home/ubuntu/workspace/NoteApp
           pull: true
         state: present
         tag: "latest"
