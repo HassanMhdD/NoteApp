@@ -29,6 +29,10 @@
         name: docker
         state: started
 
+    - name: Install pip
+      ansible.builtin.apt:
+        name: python3-pip 
+
     - name: Install Docker SDK for python
       ansible.builtin.pip:
         name: docker 
