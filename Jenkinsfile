@@ -24,7 +24,7 @@ pipeline {
                     // Exécute les commandes Ansible pour déployer les playbooks sur l'agent distant
                     withEnv(["ANSIBLE_CONFIG=NoteApp/Ansible/ansible.cfg"]) {
                         sh "ansible-playbook -i Ansible/inventory.yml --user='${remoteUser}' --private-key='${sshKey}' Ansible/playbook_installation.yml"
-                        sh "ansible-playbook -i Ansible/inventory.yml --user='${remoteUser}' --private-key='${sshKey}' Ansible/playbook_app.yml -vvv"
+                        sh "ansible-playbook -i Ansible/inventory.yml --user='${remoteUser}' --private-key='${sshKey}' Ansible/playbook_app.yml"
                         }
                     }
         }
