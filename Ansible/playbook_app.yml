@@ -39,7 +39,7 @@
     - name: create docker image
       ansible.builtin.command: docker build -d -t prototyp97/noteapp:latest .
       args:
-        chdir: /home/ubuntu/workspace/NoteApp 
+        chdir: /home/ubuntu/workspace/NoteApp@3 
     
     - name: push image to Dockerhub
       ansible.builtin.command: docker push prototyp97/noteapp:latest
