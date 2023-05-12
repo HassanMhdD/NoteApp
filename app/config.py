@@ -1,6 +1,6 @@
 import os
 
-hostname = 'database'
+hostname = 'noteapp-db.cwtr407c812l.us-east-1.rds.amazonaws.com'
 database = 'test'
 username= 'hassan'
 pwd = 'hello123'
