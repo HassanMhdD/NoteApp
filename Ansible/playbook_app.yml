@@ -37,7 +37,7 @@
       ignore_errors: yes
 
     - name: create docker image
-      ansible.builtin.command: docker build -d -t prototyp97/noteapp:latest .
+      ansible.builtin.command: docker build -t prototyp97/noteapp:latest .
       args:
         chdir: /home/ubuntu/workspace/NoteApp@3 
     
