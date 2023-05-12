@@ -32,6 +32,11 @@
     - name: Pull image from Dockerhub
       ansible.builtin.command: docker pull prototyp97/noteapp:latest
 
+  
+    - name: Delete existing Docker contener
+      ansible.builtin.command: docker rm $(sudo docker ps -q) -f 
+      ignore_errors: yes
+
     - name: Create conteneur
       ansible.builtin.command: docker run -it -d -p 8080:80 -p 5432:5432 --name noteapp-web-01 prototyp97/noteapp:latest
 
