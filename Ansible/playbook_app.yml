@@ -33,7 +33,7 @@
         name: docker-py 
      
     - name: Delete existing Docker images from the Control Node
-      ansible.builtin.command: docker rmi $(docker images -q) -f 
+      ansible.builtin.command: docker rmi $(sudo docker images -q) -f 
       ignore_errors: yes
 
     - name: create docker image
