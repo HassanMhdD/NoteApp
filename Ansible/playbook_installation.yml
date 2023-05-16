@@ -33,8 +33,12 @@
       ansible.builtin.command: docker pull prototyp97/noteapp:latest
 
   
+    - name: Stop existing Docker contener
+      ansible.builtin.command: docker stop $(sudo docker ps -q) -f 
+      ignore_errors: yes
+
     - name: Delete existing Docker contener
-      ansible.builtin.command: docker rm $(sudo docker ps -q) -f 
+      ansible.builtin.command: docker rm $(sudo docker ps -aq) -f 
       ignore_errors: yes
 
     - name: Create conteneur
