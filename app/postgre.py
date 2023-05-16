@@ -5,7 +5,7 @@ from sqlalchemy_utils import database_exists, create_database
 #from config import url
 
 Base = declarative_base()
-url= 'postgresql://hassan:hello123@noteapp-db.cwtr407c812l.us-east-1.rds.amazonaws.com:5432/test'
+url= 'postgresql://hassan:hello123@172.31.95.134:5432/test'
 engine = create_engine(f'{url}', echo=True)
 Session = sessionmaker()
 
